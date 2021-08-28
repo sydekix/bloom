@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bloom</title>
+</head>
+<body>
+
+    <!-- ICOMOON CODE SNIPPETS -->
+
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-document-star" viewBox="0 0 32 32">
+        <path d="M19 3h-9.991c-1.109 0-2.009 0.898-2.009 2.007v22.985c0 1.109 0.891 2.007 1.997 2.007h15.005c1.103 0 1.997-0.891 1.997-1.997v-17.003h-4.994c-1.108 0-2.006-0.887-2.006-1.998v-6.002zM20 3v5.997c0 0.554 0.451 1.003 0.991 1.003h5.009l-6-7zM16.5 23l-4 3 1.5-5-4-3h5l1.5-5 1.5 5h5l-4 3 1.5 5-4-3z"></path>
+        </symbol>
+        <symbol id="icon-messages" viewBox="0 0 24 24">
+        <path d="M21 7h-3c0-1.65-1.35-3-3-3h-12c-1.65 0-3 1.35-3 3v7c0 1.65 1.35 3 3 3v3l3-3c0 1.65 1.35 3 3 3h8l3 3v-3h1c1.65 0 3-1.35 3-3v-7c0-1.65-1.35-3-3-3zM3 15c-0.542 0-1-0.458-1-1v-7c0-0.542 0.458-1 1-1h12c0.542 0 1 0.458 1 1v1h-6.5c-1.379 0-2.5 1.121-2.5 2.5v4.5h-4zM22 17c0 0.542-0.458 1-1 1h-12c-0.542 0-1-0.458-1-1v-6.5c0-0.827 0.673-1.5 1.5-1.5h11.5c0.542 0 1 0.458 1 1v7z"></path>
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 18 18">
+        <path d="M7.012 3c2.193 0 3.977 1.794 3.977 4 0 0.831-0.255 1.63-0.737 2.312l-0.392 0.553-0.55 0.393c-0.678 0.485-1.473 0.742-2.298 0.742-2.193 0-3.977-1.794-3.977-4s1.784-4 3.977-4zM7.012 1c-3.295 0-5.966 2.686-5.966 6s2.671 6 5.966 6c1.288 0 2.477-0.414 3.451-1.112l4.791 4.819c0.195 0.196 0.45 0.293 0.705 0.293s0.51-0.098 0.704-0.293c0.389-0.391 0.389-1.025 0-1.416l-4.791-4.819c0.694-0.98 1.105-2.177 1.105-3.471 0-3.314-2.671-6-5.965-6v0z"></path>
+        </symbol>
+        <symbol id="icon-cloud-download" viewBox="0 0 32 32">
+        <path d="M27.844 11.252c-0.101-4.022-3.389-7.252-7.433-7.252-2.369 0-4.477 1.109-5.839 2.835-0.764-0.987-1.959-1.624-3.303-1.624-2.307 0-4.176 1.871-4.176 4.179 0 0.201 0.015 0.399 0.043 0.592-0.351-0.063-0.711-0.098-1.080-0.098-3.344-0-6.054 2.712-6.054 6.058s2.71 6.058 6.054 6.058h2.868l7.078 7.328 7.078-7.328 3.484-0c3.004-0.006 5.438-2.444 5.438-5.451 0-2.565-1.771-4.716-4.156-5.296zM16 26l-6-6h4v-6h4v6h4l-6 6z"></path>
+        </symbol>
+        <symbol id="icon-facebook" viewBox="0 0 32 32">
+        <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 32 32">
+        <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+        </symbol>
+        <symbol id="icon-rss" viewBox="0 0 32 32">
+        <path d="M4.259 23.467c-2.35 0-4.259 1.917-4.259 4.252 0 2.349 1.909 4.244 4.259 4.244 2.358 0 4.265-1.895 4.265-4.244-0-2.336-1.907-4.252-4.265-4.252zM0.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391 2.825 2.822 4.384 6.595 4.384 10.603h6.16c-0-11.651-9.478-21.127-21.121-21.127zM0.012 0v6.136c14.243 0 25.836 11.604 25.836 25.864h6.152c0-17.64-14.352-32-31.988-32z"></path>
+        </symbol>
+        </defs>
+        </svg>
+
+    <!-- HEADER -->
+
+    <header class="header">
+        <div class="inner">
+            <div class="home-link">
+                <a href="#link">Bloom Landing Page</a>
+            </div>
+            <div class="social-links">
+                <ul>
+                    <li><a href="#link"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                    <li><a href="#link"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                    <li><a href="#link"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- Section 1 -->
+        
+        <div class="section section1">
+            <div class="inner">
+                <div class="block1">
+                    <h1>Welcome to our Landing Page!</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, minima consectetur? Delectus similique eveniet, iusto mollitia, laboriosam repellat facere commodi deserunt autem assumenda at, fugiat quaerat beatae quisquam fugit quas a explicabo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima ad numquam at officia voluptates necessitatibus consequatur.</p>
+                    <a href="#link"><button class="button button-learn-more">Learn More</button></a>
+                    <a href="#link"><button class="button button-download-now">Download Now</button></a>
+                </div>
+                <div class="block2">
+                    <img class= "laptop-img" src="media/laptop.png" alt="MacBook Pro">  
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+
+        <div class="section section2">
+            <div class="inner">
+                <div class="block3">
+                   <svg class="icon icon-cloud-download"><use xlink:href="#icon-cloud-download"></use></svg>
+                    <span><h2>Lorem, ipsum dolor.</h2></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, necessitatibus soluta illum iusto pariatur enim laudantium aperiam neque saepe veniam doloribus quo earum tenetur eos?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta atque eaque. Esse veniam dolores itaque dicta necessitatibus?</p>
+                </div>
+                <div class="block4">
+                   <svg class="icon icon-messages"><use xlink:href="#icon-messages"></use></svg>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, necessitatibus soluta illum iusto pariatur enim laudantium aperiam neque saepe veniam doloribus quo earum tenetur eos?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta atque eaque. Esse veniam dolores itaque dicta necessitatibus?</p>
+                </div>
+                <div class="block5">
+                    <svg class="icon icon-document-star"><use xlink:href="#icon-document-star"></use></svg>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, necessitatibus soluta illum iusto pariatur enim laudantium aperiam neque saepe veniam doloribus quo earum tenetur eos?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta atque eaque. Esse veniam dolores itaque dicta necessitatibus?</p>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+
+        <!-- SECTION 3 -->
+
+        <div class="section section3">
+            <div class="inner">
+                <div class="block6">
+                    <div class="sub-block1">
+                        <h2>Check Out Our Products!</h2>
+                    </div>
+                    <div class="sub-block2">
+                        <div class="search-container search-container1">
+                            <a href ="#link"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></a>  
+                        </div>
+                        <div class="search-container search-container2">
+                            <a href ="#link"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></a> 
+                        </div>
+                        <div class="search-container search-container3">
+                            <a href="#link"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></a>
+                        </div>
+                        <div class="search-container search-container4">
+                            <a href="#link"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="block7">
+                    <div class="sub-block3">
+                        <h2>What our clients are saying...</h2>
+                    </div>
+                    <div class="sub-block4">                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae porro, temporibus commodi distinctio debitis, dolores obcaecati assumenda ab repellat saepe magni, voluptates dolorum sit doloribus. - <span class="testimonial">John Smith</span></p>
+                        <img class="quotes" src="media/Quotation-Mark-PNG-Free-Download.png" alt="quotation marks">
+                    </div>
+                    <div class="sub-block5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae porro, temporibus commodi distinctio debitis, dolores obcaecati assumenda ab repellat saepe magni, voluptates dolorum sit doloribus. - <span class="testimonial">John Smith</span></p>
+                        <img class="quotes" src="media/Quotation-Mark-PNG-Free-Download.png" alt="quotation marks">
+                    </div>
+                    <div class="sub-block6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae porro, temporibus commodi distinctio debitis, dolores obcaecati assumenda ab repellat saepe magni, voluptates dolorum sit doloribus. - <span class="testimonial">John Smith</span></p>
+                        <img class="quotes" src="media/Quotation-Mark-PNG-Free-Download.png" alt="quotation marks">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="inner">
+            <div class="colophon">
+                <p>Copyright &copy; 2012 Bloom Web Design &middot; All rights reserved</p>
+            </div>
+            <div class="social-links-footer">
+                <ul>
+                    <li><a href="#link"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                    <li><a href="#link"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                    <li><a href="#link"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
