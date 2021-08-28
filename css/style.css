@@ -1,0 +1,307 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #444840;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #282c2c;
+}
+
+.home-link a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links ul li {
+    display: inline;
+}
+
+.icon-facebook, .icon-twitter, .icon-rss {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.icon-facebook:hover, .icon-twitter:hover, .icon-rss:hover{
+    color: #e4788c;
+}
+
+/* SECTION 1 */
+
+
+.section1 {
+    background-color: #e4788c;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.section1 .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 p {
+    color: #ecf4e4;
+    font-weight: bolder;
+}
+ 
+.block1, .block2 {
+    width: 50%;
+}
+
+.block1 {
+    color: whitesmoke;
+}
+
+.button {
+    background-color: #1c2c2c;
+    color: #ecf4e4;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    border-radius:10px;
+    box-shadow: 5px 5px 2px black;
+}
+
+.button:hover {
+    background: #bcc8d0;
+    color: #1c2c2c;
+}
+
+.button-learn-more {
+    margin-right: 25px;
+}
+
+.block2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.laptop-img {
+    width: 800px;
+    height: auto;
+}
+
+/* SECTION 2 */
+
+.section2 .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-cloud-download, .icon-messages, .icon-document-star {
+    color: darkgray;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.section2 p {
+    color: #444840;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.block3, .block4, .block5 {
+    width: calc(100% / 3);
+}
+
+.section2 h2 {
+    display: inline;
+}
+
+.icon-cloud-download, .icon-messages, .icon-document-star {
+    height: 40px;
+}
+
+.section2 h2 {
+    margin-bottom: 40px;
+}
+
+/* HORIZONTAL RULE */
+
+hr {
+    margin: 40px 0 20px 0;
+    height: 12px;
+    background-color: #e4788c;
+    opacity: .2;
+}
+
+/* SECTION 3 */
+
+.section3 .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 p {
+    color: #444840;
+    font-size: 15px;
+}
+
+.block6 {
+    width: 66.66%;
+}
+
+.search-container {
+    width: 300px;
+    height: 150px;
+    background-color: #444840;
+    border: 15px solid #bcc8d0;
+    margin-bottom: 60px;
+    margin-right: 65px;
+    box-shadow: 2px 6px 10px black;
+}
+
+.sub-block2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.icon-search {
+    color: whitesmoke;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 70px;
+}
+
+.block7 {
+    width: 33.33%;
+}
+
+.span2 {
+    font-weight: bold;
+}
+
+.testimonial {
+    font-weight: bold;
+}
+
+.sub-block4 p, .sub-block5 p, .sub-block6 p {
+    margin-bottom: 30px;
+    z-index: 1;
+} 
+
+.sub-block4 p {
+    margin-top: 40px;
+}
+
+.quotes {
+    position: absolute;
+    width: 170px;
+    height: 180px;
+    color: lightgray;
+    opacity: .1;
+    margin-top: -160px;
+    margin-left: -40px;
+}
+
+/* FOOTER */
+
+.footer .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colophon, .social-links-footer {
+    width: 50%;
+}
+
+.social-links-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Icons */
+
+ /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+.footer {
+    background-color: black;
+} 
+.footer .inner .colophon {
+    color: whitesmoke;
+}
+
+.footer ul {
+    align-content: flex-end;
+}
+
+.social-links-footer ul li {
+    display: inline;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@media (max-width: 991px) {
+    .section1 {
+        background-color: indigo;
+    }
+}
+
+@media (max-width: 768px) {
+    .section1 {
+        background-color: black;
+    }
+}
